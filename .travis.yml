@@ -4,11 +4,11 @@ node_js:
 script:
   - "npm run lint"
   - "npm run test"
-deploy:
-  provider: heroku
-  edge: true
-  api_key:
-    secure: c2f80a2d-2d44-4fb7-8e92-8042296c8006
-  app: NodeProject
-  on:
-    repo: Li-Mengke/NodeProject
+#deploy:
+ # provider: heroku
+ # edge: true
+ # api_key:
+ #   secure: c2f80a2d-2d44-4fb7-8e92-8042296c8006
+ # app: NodeProject
+ # on:
+ #   repo: Li-Mengke/NodeProject
