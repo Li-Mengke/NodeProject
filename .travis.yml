@@ -6,6 +6,7 @@ script:
   - "npm run test"
 deploy:
   provider: heroku
+  edge: true
   api_key:
     secure: "2997cced-cafb-4e75-a76e-96efca4d40fb"
   app: NodeProject
