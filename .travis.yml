@@ -8,7 +8,7 @@ deploy:
   provider: heroku
   edge: true
   api_key:
-    secure: "33df37a4-6207-4a00-85d7-8b8190201f12"
+    secure:"33df37a4-6207-4a00-85d7-8b8190201f12"
   app: NodeProject
   on:
     repo: Li-Mengke/NodeProject
